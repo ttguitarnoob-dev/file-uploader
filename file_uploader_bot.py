@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = '/Volumes/Macintosh HD/Users/travis/Downloads/pooass'
+UPLOAD_FOLDER = '/home/fireweed-guitars/build/static/media'
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png', 'gif'}
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
