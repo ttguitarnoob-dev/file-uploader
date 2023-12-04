@@ -18,7 +18,7 @@ def home():
 @app.route('/photos', methods=['POST'])
 def photo_upload():
     
-    
+    request.headers.add('Access-Control-Allow-Origin')
     # Check if the POST request has a file part
     if 'file' not in request.files:
         
